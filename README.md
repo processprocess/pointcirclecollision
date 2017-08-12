@@ -3,7 +3,7 @@
 Performs a point-circle collision test, returning true if they collide. Inspired from Matt Desl's point-circle-collision [point-circle-collision](http://github.com/mattdesl/point-circle-collision/blob/master/LICENSE.md) node.
 
 ```js
-let collision = require('./pointCircleCollision.js');
+const collision = require('./pointCircleCollision.js');
 
 let point = {
   x: 100,
@@ -16,7 +16,7 @@ let circle = {
   radius: 100
 }
 
-var hit = collision(point.x, point.y, circle.x, circle.y, circle.radius)
+let hit = collision(point.x, point.y, circle.x, circle.y, circle.radius)
 console.log(collision)
 ```
 

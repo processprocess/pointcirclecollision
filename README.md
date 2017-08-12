@@ -16,7 +16,7 @@ let circle = {
   radius: 100
 }
 
-var collision = pointCircleCollision(point.x, point.y, circle.x, circle.y, circle.radius)
+var hit = collision(point.x, point.y, circle.x, circle.y, circle.radius)
 console.log(collision)
 ```
 

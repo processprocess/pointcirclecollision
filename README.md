@@ -16,8 +16,8 @@ let circle = {
   radius: 100
 }
 
-let hit = collision(point.x, point.y, circle.x, circle.y, circle.radius)
-console.log(hit)
+let hit = collision(point.x, point.y, circle.x, circle.y, circle.radius);
+console.log(hit);
 ```
 
 ## Usage

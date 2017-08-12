@@ -17,7 +17,7 @@ let circle = {
 }
 
 let hit = collision(point.x, point.y, circle.x, circle.y, circle.radius)
-console.log(collision)
+console.log(hit)
 ```
 
 ## Usage

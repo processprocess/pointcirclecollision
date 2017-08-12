@@ -5,18 +5,18 @@ Performs a point-circle collision test, returning true if they collide. Inspired
 ```js
 const collision = require('./pointCircleCollision.js');
 
-let point = {
+let p = {
   x: 100,
   y: 100
 }
 
-let circle = {
+let c = {
   x: 120,
   y: 120,
   radius: 100
 }
 
-let hit = collision(point.x, point.y, circle.x, circle.y, circle.radius);
+let hit = collision(p.x, p.y, c.x, c.y, c.radius);
 console.log(hit);
 ```
 

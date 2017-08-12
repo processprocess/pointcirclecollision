@@ -1,0 +1,16 @@
+{
+  "name": "circlepointcollision",
+  "version": "1.0.0",
+  "description": "test for collision with a circle and point",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/processprocess/circlepointcollision.git"
+  },
+  "author": "Philip Bell <philip.hunter.bell@gmail.com> (http://philipbell.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/processprocess/circlepointcollision/issues"
+  },
+  "homepage": "https://github.com/processprocess/circlepointcollision#readme"
+}

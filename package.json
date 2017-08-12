@@ -1,6 +1,6 @@
 {
-  "name": "circlepointcollision",
-  "version": "1.0.0",
+  "name": "pointcirclecollision",
+  "version": "1.0.1",
   "description": "test for collision with a circle and point",
   "main": "index.js",
   "repository": {
